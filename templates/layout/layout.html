@@ -1,0 +1,36 @@
+<head>
+    <title>Cal Poly Lacrosse</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+
+<body>
+{{> headbar}}
+</body>
+
+<template name="home">
+    <div class="container-fluid">
+        <div class="col-md-8">
+            {{> newsWidget}}
+        </div>
+        <div class="col-md-4">
+            {{> resultsWidget}}
+        </div>
+        <div class="col-md-4">
+            {{> twitterWidget}}
+        </div>
+    </div>
+</template>
+
+
+
+<template name="resultsWidget">
+    <div class="jumbotron">
+        <h1>Last game</h1>
+    </div>
+</template>
+
+<template name="twitterWidget">
+    <div class="jumbotron">
+        <h1>Twitter</h1>
+    </div>
+</template>

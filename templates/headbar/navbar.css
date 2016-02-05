@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Ailerons";
+    src: url('/fonts/Ailerons-Typeface.otf');
+}
+
+.navbar-format {
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-item {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: 1px solid #e6b700;
+    margin: -1px;
+    font-family: Ailerons;
+    font-size: 22px;
+    color: black;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .navbar-item {
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        border: 1px solid #e6b700;
+        margin: -1px;
+        font-family: Ailerons;
+        font-size: 22px;
+        color: black;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        -webkit-transform: skewX(-10deg);
+        transform: skewX(-10deg);
+    }
+}
+
+
+
+.navbar-item:hover {
+    background: #d6d6d6;
+    -webkit-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -moz-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -o-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+}

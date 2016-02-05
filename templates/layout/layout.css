@@ -1,0 +1,12 @@
+body {
+    background-color: rgba(0, 51, 0, 20);
+    color: white;
+}
+
+.jumbotron {
+    color: black;
+    border: 1px solid #e6b700;
+    -webkit-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
