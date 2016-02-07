@@ -9,6 +9,10 @@ if(Meteor.isClient) {
             var id = "#" + event.target.id.replace("Link", "Button");
             $(id).addClass("active");
 
+        },
+        "click #loginLink": function(event) {
+            console.log("login clicked");
+            $("#loginModal").modal('show');
         }
     });
 }

@@ -1,6 +1,21 @@
 body {
     background-color: rgba(0, 51, 0, 20);
+    /*background-image: url('/media/background-mobile.png');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;*/
     color: white;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        /*background-color: rgba(0, 51, 0, 20);*/
+        background-image: url('/media/background.png');
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+        color: white;
+    }
 }
 
 .jumbotron {
@@ -9,4 +24,27 @@ body {
     -webkit-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h1,
+h4 {
+    font-family: Ailerons;
+}
+
+.win {
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    border: 1px solid;
+    font-family: Ailerons;
+    font-size: 36px;
+    margin: 5px;
+}
+
+.logo-display {
+    display: inline-block;
+    text-align: center;
+    color: black;
+    font-size: 22px;
 }
