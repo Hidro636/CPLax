@@ -12,8 +12,14 @@
                 <div class="modal-body">
 
                     <form id="loginForm">
-                        <input type="text" id="usernameTextField" placeholder="Username"/>
-                        <input type="password" id="passwordTextField" placeholder="Password"/>
+                        <div class="form-group">
+                            <label for="usernameTextField">Username: </label>
+                            <input type="text" id="usernameTextField" placeholder="Username"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="passwordTextField">Password: </label>
+                            <input type="password" id="passwordTextField" placeholder="Password"/>
+                        </div>
                         <hr>
                         <label>OR</label>
                         <hr>
@@ -28,7 +34,7 @@
 
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <input type="submit" form="loginForm" class="btn btn-primary" value="Login"/>
+                    <input type="submit" form="loginForm" class="login-button-animate" value="Login"/>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
