@@ -25,6 +25,17 @@ body {
     -moz-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.3);
     text-align: center;
+
+    font-size: 12px;
+}
+
+.jumbotron p {
+    font-size: 12px;
+}
+
+h2 {
+    color: darkgreen;
+    font-family: Ailerons;
 }
 
 h1,
@@ -35,6 +46,16 @@ h4 {
 .win {
     color: white;
     background-color: green;
+    border-radius: 5px;
+    border: 1px solid;
+    font-family: Ailerons;
+    font-size: 36px;
+    margin: 5px;
+}
+
+.loss {
+    color: white;
+    background-color: red;
     border-radius: 5px;
     border: 1px solid;
     font-family: Ailerons;
